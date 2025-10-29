@@ -14,4 +14,15 @@
     小根堆 (Min Heap)： 任何一个父节点的值，都小于或等于它的任意一个子节点的值。
     <img width="1004" height="427" alt="image" src="https://github.com/user-attachments/assets/b84132df-72b6-4afc-82c9-aa7a804eefd3" />
 
+### 大根堆的上浮调整
+如下图所示：
+<img width="1158" height="610" alt="image" src="https://github.com/user-attachments/assets/409853de-b302-44d6-b0e6-51796b2a23c1" />
+先加到队尾，随后进行上浮，与父节点进行比较
+边界条件：i比较到根节点即可，再进行元素交换
+
+### 大根堆的下沉调整
+pop堆顶元素后，需要把
+边界条件：比较到最后一个非叶子节点，后续都是叶子节点，没有子节点，不需要再考虑和孩子比较
+<img width="1169" height="523" alt="image" src="https://github.com/user-attachments/assets/e1aea888-9b54-4ac2-8564-ed226cc60d55" />
+
 
